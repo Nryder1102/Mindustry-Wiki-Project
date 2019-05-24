@@ -1,0 +1,116 @@
+* {
+    color: floralwhite;
+    box-sizing: border-box;
+}
+
+.sitebg {
+    background-color: rgb(51, 52, 53);
+}
+
+.main-nav {
+    width: 110%;
+   
+    min-height: 30px;
+    padding: 10px;
+    position: initial;
+    text-align: center;
+  }
+  .nav {
+    display: block;
+    justify-content: space-around;
+    font-weight: 700;
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
+  }
+
+  
+
+
+.header{
+    padding-top: 10px;
+    height: auto;
+    width: 340px;
+}
+
+.header4 {
+    padding-top: 10px;
+    height: auto;
+    width: 340px;
+    margin-top: auto;
+    display:flex;
+    
+}
+
+.intro {
+    text-align: center;
+     
+}
+
+.logo {
+    list-style-type: none;
+    display: inline;
+}
+
+
+
+
+
+
+
+
+@media screen and (min-width: 720px) {
+    * {
+        color: floralwhite;
+        box-sizing: border-box;
+    }
+    
+    .sitebg {
+        background-color: rgb(51, 52, 53);
+    }
+    
+    .main-nav {
+        width: 100%;
+       
+        min-height: 30px;
+        padding: 10px;
+        position: initial;
+        text-align: center;
+      }
+      .nav {
+        display: flex;
+        justify-content: space-around;
+        font-weight: 700;
+        list-style-type: none;
+        margin: 0 auto;
+        
+      }
+    
+      
+    
+    
+    .header{
+        padding-top: 10px;
+        height: auto;
+        width: 340px;
+    }
+    
+    .header4 {
+        padding-top: 10px;
+        height: auto;
+        width: 340px;
+        margin-top: auto;
+        display:flex;
+        
+    }
+    
+    .intro {
+        text-align: center;
+         
+    }
+    
+    .logo {
+        list-style-type: none;
+        display: inline;
+    }
+}
