@@ -30,13 +30,13 @@
 .header{
     padding-top: 10px;
     height: auto;
-    width: 340px;
+    width: 370px;
 }
 
 .header4 {
     padding-top: 10px;
     height: auto;
-    width: 340px;
+    width: 370px;
     margin-top: auto;
     display:flex;
     
@@ -90,15 +90,15 @@
     
     
     .header{
-        padding-top: 10px;
+        padding-top:5px;
         height: auto;
-        width: 340px;
+        width: 370px;
     }
     
     .header4 {
-        padding-top: 10px;
+        padding-top: 5px;
         height: auto;
-        width: 340px;
+        width: 370px;
         margin-top: auto;
         display:flex;
         
