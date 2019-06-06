@@ -57,7 +57,15 @@ ROOT_URLCONF = 'MinWiki.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [
+            'wiki4/templates/blocks4/',
+            'wiki4/templates/enemies4/',
+            'wiki4/templates/zones4/',
+            'wiki4/templates/items4/',
+            'wiki4/templates/weapons4/',
+            'wiki4/templates/mechs4/',
+
+        ],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [

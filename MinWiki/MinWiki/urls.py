@@ -21,7 +21,10 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', RedirectView.as_view(url='/index/', permanent=True)),
     path('index/', include('index.urls')),
+    
     path('wiki3/', include('wiki3.urls')),
+    path('wiki4/', include('wiki4.urls')),
+    
     
     
 ]
