@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box
+}
+
+.sitebg {
+    background-color: rgb(51, 52, 53);
+
+}
+
+.header {
+    justify-content: center;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-around;
+    font-weight: 700;
+    list-style-type: none;
+    
+    
+  }
+
+  .links {
+      
+      padding-top: 35px;
+      margin: 5px;
+  }
