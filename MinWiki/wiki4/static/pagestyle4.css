@@ -1,0 +1,60 @@
+* {
+    color: floralwhite;
+    box-sizing: border-box
+}
+
+.sitebg {
+    background-color: rgb(51, 52, 53);
+
+}
+.intro {
+    text-align: center;
+     
+}
+.header {
+    justify-content: center;
+    width: 100%;
+    
+}
+.main-nav {
+    width: 100%;
+   
+    justify-content: center;
+    padding: 10px;
+    position: initial;
+    
+  }
+.nav {
+    display: flex;
+    justify-content: space-around;
+    font-weight: 700;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
+  }
+
+.infobox {
+    
+    width: 160px;
+    height: 360px;
+    border-style: double;
+    border-color: floralwhite;
+    
+}
+
+.icon {
+    
+    border-top-color: floralwhite;
+    border-top-style: ridge;
+    border-top-width: 2px;
+   text-align: center;
+   padding: 10px;
+   display: flex;
+   margin: 0 auto;
+}
+.table {
+    padding: px;
+    margin: 0 auto;
+}
+
