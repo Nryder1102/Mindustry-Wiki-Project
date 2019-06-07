@@ -7,9 +7,45 @@
 
 <html>
 <body class='sitebg'>
-<header class=''>
-    
-</header>
+<div class='main-nav'>
+    <ul class='nav'>
+        <li><a href="/wiki4/"><img src="{% static 'images/itemlink4.png' %}"></a></li>
+
+
+
+    </ul>
+
+
+
+</div>
+<h2 class='intro'>Here's a list of all of the items in Mindustry 4! Click on an icon to go to that item's page!</h2>
+<table align="center" class='table1'>
+    <tr class='ilist'>
+    <td><a href="{% url 'blast compound.html' %}"><img class='links2' src="{% static 'images/blastcompound.png' %}"></a></td>
+    <td><a href="{% url 'coal.html' %}"><img class='links2' src="{% static 'images/coal.png' %}"></a></td>
+    <td><a href="{% url 'copper.html' %}"><img class='links2' src="{% static 'images/copper.png' %}"></a></td>
+    <td><a href="{% url 'graphite.html' %}"><img class='links2' src="{% static 'images/graphite.png' %}"></a></td>
+    </tr>
+    <tr class='ilist'>
+    <td><a href="{% url 'lead.html' %}"><img class='links2' src="{% static 'images/lead.png' %}"></a></td>
+    <td><a href="{% url 'metaglass.html' %}"><img class='links2' src="{% static 'images/metaglass.png' %}"></a></td>
+    <td><a href="{% url 'phase fabric.html' %}"><img class='links2' src="{% static 'images/phase fabric.png' %}"></a></td>
+    <td><a href="{% url 'plastanium.html' %}"><img class='links2' src="{% static 'images/plastanium.png' %}"></a></td>
+    </tr>
+    <tr class='ilist'>
+    <td><a href="{% url 'pyratite.html' %}"><img class='links2' src="{% static 'images/pyratite.png' %}"></a></td>
+    <td><a href="{% url 'sand.html' %}"><img class='links2' src="{% static 'images/sand.png' %}"></a></td>
+    <td><a href="{% url 'scrap.html' %}"><img class='links2' src="{% static 'images/scrap.png' %}"></a></td>
+    <td><a href="{% url 'silicon.html' %}"><img class='links2' src="{% static 'images/silicon.png' %}"></a></td>
+    </tr>
+    <tr class='ilist'>
+    <td><a href="{% url 'spore pod.html' %}"><img class='links2' src="{% static 'images/spore pod.png' %}"></a></td>
+    <td><a href="{% url 'surge alloy.html' %}"><img class='links2' src="{% static 'images/surge alloy.png' %}"></a></td>
+    <td><a href="{% url 'thorium.html' %}"><img class='links2' src="{% static 'images/thorium.png' %}"></a></td>
+    <td><a href="{% url 'titanium.html' %}"><img class='links2' src="{% static 'images/titanium.png' %}"></a></td>
+    </tr>
+</table>
 
 
 </body>
+</html>
